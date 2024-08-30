@@ -1,0 +1,34 @@
+#ignores= node_modules directory
+node_modules
+#ignore environment variable files
+.env
+.env.local
+.env.*.local
+#ignore log files
+*.log
+npm_debug.log*
+yarn-debug.log*
+yarn-error.log*
+# ignore system files
+.DS_Store
+Thumbs.db
+# ignore build directories and files
+dist/
+build/
+tmp/
+out/
+# ignore coverage directory 
+coverage/
+#ignore any compiled files
+*.out
+*.o
+#ignore IDE/editor configuration files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+# ignore temporary files
+*.swp
+*~
